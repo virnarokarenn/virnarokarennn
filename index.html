@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduation - Medi Sardiansyah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- AUDIO PLAYER -->
+    <audio id="bgMusic" loop preload="metadata">
+        <source src="assets/Taylor Swift-You're on your own kid.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- FLOATING MUSIC BUTTON (Tampil di semua halaman kecuali cover) -->
+    <button id="musicToggle" class="floating-music-btn">▶ PLAY MUSIC</button>
+
+    <!-- HALAMAN 1: COVER -->
+    <section id="cover" class="page active">
+        <div class="content fade-in">
+            <p class="subtitle">GRADUATION 2026</p>
+            <h1 class="title">WE MADE IT.</h1>
+            <p class="quote">One chapter ends,<br>another begins.</p>
+            <p class="date">26 SEPTEMBER 2026</p>
+            <h2 class="name">Medi Sardiansyah, S.Tr.Pt.</h2>
+            
+            <div class="buttons">
+                <button id="coverMusicBtn" class="primary-btn">▶ PLAY MUSIC</button>
+                <button class="nav-btn primary-btn" data-target="beginning">ENTER</button>
+            </div>
+            <p class="note">Nyalakan musik sebelum masuk</p>
+        </div>
+    </section>
+
+    <!-- HALAMAN 2: THE BEGINNING -->
+    <section id="beginning" class="page">
+        <div class="content slide-up">
+            <p class="chapter">01</p>
+            <h1 class="title">THE BEGINNING</h1>
+            <p class="quote">Every journey<br>starts somewhere.</p>
+            
+            <p class="body-text">
+                Semuanya pernah dimulai dari satu langkah kecil.<br>
+                Dari sebuah awal yang mungkin sederhana,<br>
+                sampai akhirnya membawa kita ke hari<br>
+                yang begitu berarti.
+            </p>
+
+            <div class="personal-message minimal-border">
+                <h2 class="highlight">FINALLY,<br><span class="gold-text">YOU DID IT!</span></h2>
+                <p class="body-text mt-2">
+                    Hadiah tak seberapa dariku,<br>
+                    karena kamu super membanggakan.
+                </p>
+                <p class="signature">— from Virna</p>
+            </div>
+
+            <p class="body-text">
+                Awal dari perjalanan panjang<br>
+                menuju sesuatu yang lebih besar.
+            </p>
+
+            <div class="marker">
+                <p>THE START</p>
+                <p class="gold-text">2022 — 2026</p>
+            </div>
+
+            <button class="nav-btn primary-btn mt-3" data-target="journey">CONTINUE</button>
+        </div>
+    </section>
+
+    <!-- HALAMAN 3: THE JOURNEY -->
+    <section id="journey" class="page">
+        <div class="content slide-up">
+            <p class="chapter">02</p>
+            <h1 class="title">THE JOURNEY</h1>
+            <p class="quote">Years of learning.<br>Years of growing.</p>
+            
+            <p class="body-text">
+                Perjalanan ini bukan hanya tentang sampai di tujuan,<br>
+                tetapi tentang semua proses yang terjadi di sepanjang jalan.
+            </p>
+
+            <div class="cards">
+                <div class="card">
+                    <h3 class="gold-text">LEARN</h3>
+                    <p class="body-text">Menemukan hal-hal baru,<br>mempelajari banyak hal,<br>dan terus berkembang.</p>
+                </div>
+                <div class="card">
+                    <h3 class="gold-text">GROW</h3>
+                    <p class="body-text">Melewati tantangan,<br>belajar dari kesalahan,<br>dan menjadi lebih kuat.</p>
+                </div>
+                <div class="card">
+                    <h3 class="gold-text">BECOME</h3>
+                    <p class="body-text">Menjadi seseorang yang<br>lebih siap menghadapi<br>langkah berikutnya.</p>
+                </div>
+            </div>
+
+            <div class="timeline mt-3">
+                <p>BEGINNING</p>
+                <p class="gold-text">↓</p>
+                <p>PROCESS</p>
+                <p class="gold-text">↓</p>
+                <p>GRADUATION</p>
+            </div>
+
+            <button class="nav-btn primary-btn mt-3" data-target="moment">NEXT</button>
+        </div>
+    </section>
+
+    <!-- HALAMAN 4: THE MOMENT -->
+    <section id="moment" class="page">
+        <div class="content cinematic fade-in">
+            <h1 class="huge-number glow">26</h1>
+            <h2 class="month">SEPTEMBER<br><span class="gold-text">2026</span></h2>
+            
+            <p class="quote mt-3">THE DAY WE'VE BEEN WAITING FOR.</p>
+            <h2 class="name mb-3">Medi Sardiansyah, S.Tr.Pt.</h2>
+            
+            <p class="body-text max-w">
+                Hari ini bukan hanya tentang sebuah gelar.<br>
+                Hari ini adalah tanda bahwa semua usaha,<br>
+                waktu, dan proses yang sudah dilewati<br>
+                akhirnya membawa sampai ke satu titik:<br>
+                kelulusan.
+            </p>
+
+            <button class="nav-btn primary-btn mt-3" data-target="closing">ONE MORE PAGE</button>
+        </div>
+    </section>
+
+    <!-- HALAMAN 5: CLOSING -->
+    <section id="closing" class="page">
+        <div class="content fade-in">
+            <h1 class="title">THE END<br><span class="gold-text">OF AN ERA.</span></h1>
+            <h1 class="title mt-2">THE BEGINNING<br><span class="gold-text">OF EVERYTHING.</span></h1>
+            
+            <h2 class="name mt-3">Medi Sardiansyah, S.Tr.Pt.</h2>
+            <p class="date gold-text mb-3">26 · 09 · 2026</p>
+
+            <div class="personal-message minimal-border">
+                <p class="body-text">
+                    Selamat ya, Kak, akhirnya sampai juga di titik ini.<br><br>
+                    Selamat atas kelulusannya dan atas semua proses<br>
+                    yang sudah dilewati sampai hari ini.<br><br>
+                    Semoga setelah ini banyak hal baik yang datang,<br>
+                    langkah Kakak selalu dimudahkan,<br>
+                    dan semua yang dicita-citakan bisa tercapai.<br><br>
+                    Nikmati hari ini, karena ini adalah salah satu<br>
+                    pencapaian yang layak untuk dirayakan.
+                </p>
+                <h3 class="gold-text mt-3">Congratulations, Kak.<br>You made it.</h3>
+                <p class="signature mt-2">— from Virna</p>
+            </div>
+
+            <button class="nav-btn primary-btn mt-3" data-target="cover">REPLAY</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
